@@ -3,7 +3,7 @@ import Layout from "../../layouts/Layout.astro"
 export async function getStaticPaths() {
 const posts = await Astro.glob("../../blogs/*.mdx");
   return posts.map((p) =>  ( {
-    params: { slug: p.file.split("/").pop().split(".").shift() },
+    params: { slug: p.file.split("/").pop().split(".").shift()},
     props: { post: p },
   }));
   }

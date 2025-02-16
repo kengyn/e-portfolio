@@ -6,7 +6,7 @@ let blogs = allPosts.sort(
     new Date(b.frontmatter.date).valueOf() -
     new Date(a.frontmatter.date).valueOf()
     );
-    let a = [blogs[0], blogs[1], blogs[2], blogs[3]]
+let a = [blogs[0], blogs[1], blogs[2], blogs[3]]
 ---
 <Layout title="kengyn" description="kengyn's personal website and blog.">
   <div class="w-full flex justify-center md:py-8 flex-col items-center gap-2">
@@ -53,11 +53,11 @@ let blogs = allPosts.sort(
         </a>
         </div>
       </div>
-      <!--<h1 class="text-2xl text-fg mt-8 mb-2"><span class="text-gray-500">Recent</span> Blogs <a href="/blog"><i class="ph ml-2 ph-arrow-right text-sm"></i></a></h1>-->
+      <h1 class="text-2xl text-fg mt-8 mb-2"><span class="text-gray-500">Recent</span> Blogs <a href="/blog"><i class="ph ml-2 ph-arrow-right text-sm"></i></a></h1>
       <!--<ul class="list-inside">-->
       <!--  {a.map((i, j) => {-->
       <!--      return <li class="cursor-pointer my-6 w-full">-->
-      <!--        <a class="flex justify-between w-full" href={`/e-portfolio/blog/${i.file.split("/").pop().split(".").shift()}`}>-->
+      <!--        <a class="flex justify-between w-full" href={`/blogs/${i.file.split("/").pop().split(".").shift()}`}>-->
       <!--          <p class="text-fg text-[20px]">{j + 1}. {i.frontmatter.title}</p>-->
       <!--           <span class="mr-2 text-lg text-gray-500">{i.frontmatter.date}</span>-->
       <!--        </a>-->

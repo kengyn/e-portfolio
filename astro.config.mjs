@@ -9,8 +9,7 @@ import { pluginFrames } from 'astro-expressive-code';
 import { pluginTextMarkers } from 'astro-expressive-code';
 // https://astro.build/config
 export default defineConfig({
-  site: 'www.kengyn.com',
-  base: '/',
+  site: 'https://www.kengyn.com',
   markdown: {
     remarkPlugins: [remarkMath],
     rehypePlugins: [rehypeKatex],

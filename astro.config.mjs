@@ -10,7 +10,7 @@ import { pluginTextMarkers } from 'astro-expressive-code';
 // https://astro.build/config
 export default defineConfig({
   site: 'www.kengyn.com',
-  base: '',
+  base: '/',
   markdown: {
     remarkPlugins: [remarkMath],
     rehypePlugins: [rehypeKatex],

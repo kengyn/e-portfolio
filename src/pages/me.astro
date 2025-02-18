@@ -1,6 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro"
-const skills = ['nothing']
+const skills = ['python', 'excel']
 import Quote from "../components/Quote.astro";
 ---
 <Layout title="kengyn" description="Ken's personal website and blog.">
@@ -15,7 +15,12 @@ import Quote from "../components/Quote.astro";
       </div>
       <p class="text-lg text-gray-500">kengyn</p>
       </div>
-      <p class="mt-8 text-[20px] text-bright">i uhh umm uhnmmmmmmmm </p>
+      <p class="mt-8 text-[20px] text-bright">I am a bachelors student attending Lamar University studying accounting. In my free time, I like to work in my home lab and test open source projects I find on the internet. </p>
+      <div class="mt-8 h-[2px] px-16 bg-bg3 inline-block"></div>
+      <h1 class="text-2xl text-fg mt-8 mb-2"><span class="text-gray-500">Work</span> Experience</h1>
+      <ul class="list-decimal leading-[2.6rem] list-inside mt-4 text-[18px] text-bright">
+        <h2 class="text-fg">Super Nails: Assistant Manager</h2>
+        <p class="text-bright">Support manager in overseeing daily operations including bank reconciliation reviews and cash closing activities</p>
       <div class="mt-8 h-[2px] px-16 bg-bg3 inline-block"></div>
       <h1 class="text-2xl text-fg mt-8 mb-2"><span class="text-gray-500">Skill</span> Set</h1>
       <div class="flex flex-wrap gap-4">
@@ -26,10 +31,14 @@ import Quote from "../components/Quote.astro";
       <div class="mt-8 h-[2px] px-16 bg-bg3 inline-block"></div>
       <h1 class="text-2xl text-fg mt-8 mb-2"><span class="text-gray-500">My</span> Setup</h1>
       <ul class="list-decimal leading-[2.6rem] list-inside mt-4 text-[18px] text-bright">
-        <li>Computer System: <span class="text-fg">Dell fartiplex</span></li>
+        <li>PC <span class="text-fg">Dell Optiplex</span><span class="text-primary"> Arch Linux</span></li>
+        <li>Server <span class="text-fg">HP EliteDesk 800 G4 Mini</span><span class="text-amber-600"> Proxmox</span></li>
+        <li>Server <span class="text-fg">Lenovo M920q Tiny</span><span class="text-amber-600"> Proxmox</span></li>
+        <li>Router <span class="text-fg">Intel N100 Celeron N5105</span><span class="text-amber-600"> OPNSense</span></li>
+        <li>Switch <span class="text-fg">TP-Link 8-port Managed Switch</span></li>
       </ul>
       <div class="mt-8 h-[2px] px-16 bg-bg3 inline-block"></div>
-      <h1 class="text-2xl text-fg mt-8 mb-2"><span class="text-gray-500">Testimonial</span></h1>
-      <Quote/>
+      <!--<h1 class="text-2xl text-fg mt-8 mb-2"><span class="text-gray-500">Testimonial</span></h1>-->
+      <!--<Quote/>-->
     </div>
 </Layout>

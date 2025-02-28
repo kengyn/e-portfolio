@@ -1,2 +1,2 @@
 # e-portfolio
-aAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHH
+Portfolio for BCOM
